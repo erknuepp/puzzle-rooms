@@ -27,7 +27,7 @@ public class spin : MonoBehaviour
             _spinFactor++;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetButtonDown("Jump"))
         {
             Debug.Log("Space key down");
             var color = Random.ColorHSV(0, 1);
