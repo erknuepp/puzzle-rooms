@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SideToSidePositionX : MonoBehaviour
+public class Laser : MonoBehaviour
 {
     private const int inverter = -1;
     private float direction;
