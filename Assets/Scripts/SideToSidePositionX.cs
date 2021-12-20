@@ -8,7 +8,7 @@ public class SideToSidePositionX : MonoBehaviour
     [SerializeField]
     private int bound = 2;
     [SerializeField]
-    private float rate = .1f;
+    private float rate = .01f;
     [SerializeField]
     private float tolerance = .2f;
 
